@@ -1,10 +1,8 @@
-# criar uma calculadora web
-# front-end deve ser um form com 3 campos e um botão
-#   dois campos para os numeros e um campo para a operação a ser aplicada
-# back-end deve ser feito em flask.
-#   recebe a requisição e processa a operação e retorna uma resposta.
+# FAÇA UMA PROGRAMA WEB UTILIZANDO PYTHON E FLASK
+# QUE RECEBA DOIS NUMEROS INTEIROS E UMA OPERACAO
+# MATEMATICA (SOMA, SUBTRACAO, DIVISAO E MULTIPLICACAO)
+#  E RETORNE O VALOR CALCULADO INDICADO NA OPERACAO
 
-#from cProfile import run
 from flask import Flask, request, render_template
 from operacoes import adicao, subtracao, multiplicacao, divisao
 
